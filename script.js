@@ -1,5 +1,5 @@
 
-async function start() {
+
 
     var h1_Id = document.getElementById('h1');
     var button_Id = document.getElementById('button');
@@ -13,5 +13,5 @@ async function start() {
         h1_Id.textContent = `Всего кликов: ${balance}`;
         
     })
-}
-start()
+
+
