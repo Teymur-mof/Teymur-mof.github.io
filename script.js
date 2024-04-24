@@ -8,3 +8,7 @@ button_Id.addEventListener('click', function() {
     balance++;
     h1_Id.textContent = `Всего кликов: ${balance}`;
 });
+h1_Id.addEventListener('mousedown', function() {
+    balance++;
+    h1_Id.textContent = `Всего кликов: ${balance}`;
+})
