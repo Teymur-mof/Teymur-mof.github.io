@@ -10,6 +10,6 @@
         h1_Id.textContent = `Всего кликов: ${balance}`;
     });
     Telegram.WebApp.onEvent('mainmainButtonClicked', function(){
-        tg.sendData("some string that we need to send"); 
+        tg.sendData('data'); 
         //при клике на основную кнопку отправляем данные в строковом виде
     });
