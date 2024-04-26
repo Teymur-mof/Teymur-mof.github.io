@@ -26,10 +26,11 @@
     <script src="script.js"></script>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
-       Telegram.WebApp.ready();
-       Telegram.WebApp.MainButton.setParams({
-            text: 'Main Button'
-        });
+      var tg = window.Telegram.WebApp;
+      tg.MainButton.show();
+      tg.MainButton.text = 'Дальше'
+      tg.initData()
+
     </script>
   
 
