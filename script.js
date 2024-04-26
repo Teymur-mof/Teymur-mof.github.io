@@ -1,4 +1,4 @@
-    let tg = window.Telegram.WebApp;
+
     
 
     var h1_Id = document.getElementById('h1');
@@ -8,10 +8,5 @@
         balance++;
         h1_Id.textContent = `Всего кликов: ${balance}`;
     });
-    h1_Id.addEventListener('mousedown', function() {
-        balance++;
-        h1_Id.textContent = `Всего кликов: ${balance}`;
-        
-    })
-
+ 
 
