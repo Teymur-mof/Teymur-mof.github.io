@@ -1,6 +1,7 @@
-
-    
-
+    var tg = window.Telegram.WebApp;
+    tg.MainButton.isVisible = true;
+    tg.MainButton.isActive;
+    tg.MainButton.setText('Мофикс');
     var h1_Id = document.getElementById('h1');
     var button_Id = document.getElementById('button');
     var balance = 0;
